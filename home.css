@@ -386,4 +386,83 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.add_mail_box {
+  color: white;
+  background-color: #001135;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+@media (300px <= width <= 800px) {
+  .add_mail_box {
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+.add_mail_box .left_mail_info {
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-inline: 30px;
+  height: 100%;
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.add_mail_box .right_mail_box {
+  width: 100%;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media (300px <= width <= 800px) {
+  .add_mail_box .right_mail_box {
+    flex-direction: column;
+  }
+}
+.add_mail_box .right_mail_box .email_container {
+  width: 70%;
+  margin-inline: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.add_mail_box .right_mail_box .email_container input {
+  text-indent: 20px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  height: 4rem;
+  background: transparent;
+}
+.add_mail_box .right_mail_box .checkbox_container {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-inline: auto;
+  font-size: 1.6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.add_mail_box .right_mail_box .checkbox_container input {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+.add_mail_box .right_mail_box .button {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-inline: auto;
+}
+.add_mail_box .right_mail_box .button button {
+  border: solid gray 1px;
+  height: 50px;
+  width: 150px;
+  background-color: #1451d5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: gray;
 }/*# sourceMappingURL=home.css.map */
