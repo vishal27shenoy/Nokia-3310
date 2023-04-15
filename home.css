@@ -324,7 +324,7 @@ body {
     height: 70%;
   }
 }
-@media (600px <= width <= 810px) {
+@media (600px <= width <= 800px) {
   .final_img_container {
     box-sizing: border-box;
     padding-top: 10px;
