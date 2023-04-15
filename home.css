@@ -278,4 +278,112 @@ body {
 .left_game img {
   height: 100%;
   width: 100%;
+}
+
+.final_img_container {
+  box-sizing: border-box;
+  display: flex;
+  height: 500px;
+  width: 70%;
+  background-color: #2e394c;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+  gap: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+@media (400px <= width <= 600px) {
+  .final_img_container {
+    width: 90%;
+    height: 600px;
+    font-size: 1.5rem;
+    flex-direction: column-reverse;
+  }
+  .final_img_container .color_text, .final_img_container .color_img {
+    height: 40%;
+    width: 90%;
+  }
+  .final_img_container .color_img img {
+    height: 70%;
+  }
+}
+@media (200px <= width <= 400px) {
+  .final_img_container {
+    width: 90%;
+    height: 700px;
+    font-size: 1.5rem;
+    flex-direction: column-reverse;
+  }
+  .final_img_container .color_text, .final_img_container .color_img {
+    height: 40%;
+    width: 90%;
+  }
+  .final_img_container .color_img img {
+    height: 70%;
+  }
+}
+@media (600px <= width <= 810px) {
+  .final_img_container {
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: 700px;
+    min-height: 500px;
+    font-size: 2.5rem;
+    flex-direction: column-reverse;
+  }
+  .final_img_container .color_text, .final_img_container .color_img {
+    height: 60%;
+    width: 90%;
+  }
+  .final_img_container .color_img img {
+    height: 60%;
+  }
+}
+
+.color_text, .color_img {
+  height: 80%;
+  width: 40%;
+}
+
+.color_text {
+  box-sizing: border-box;
+  padding-inline: 30px;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.color_text p::before {
+  content: "Four great shades to choose from";
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media (200px <= width <= 400px) {
+  .color_text {
+    width: 90%;
+    height: 600px;
+    font-size: 1.5rem;
+    flex-direction: column-reverse;
+  }
+  .color_text .color_text, .color_text .color_img {
+    height: 40%;
+    width: 90%;
+  }
+  .color_text .color_img img {
+    height: 70%;
+  }
+}
+
+.color_img img {
+  height: 80%;
+}
+
+.color_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=home.css.map */
