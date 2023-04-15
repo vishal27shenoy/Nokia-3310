@@ -1,0 +1,7 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 48 48" focusable="false" width="48"  height="48" ><defs><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="feature-design">
+  <title>Design</title>
+  <g class="stroke" fill="none" stroke="#001135" stroke-width="2.375px">
+    <path d="M37.26 32.68l-4.58 4.58M16.09 11.5l-4.58 4.59M24.73 29.3l10.24 10.25a3.24 3.24 0 004.58-4.58L29.31 24.73M23.27 18.69L13.8 9.22 7.5 7.5l1.72 6.3 9.47 9.47M29.4 24.6l10.44-10.43a2.24 2.24 0 000-3.17L37 8.16a2.24 2.24 0 00-3.17 0L23.4 18.59l-4.8 4.8L8.15 33.84a2.24 2.24 0 000 3.17L11 39.84a2.24 2.24 0 003.17 0L24.6 29.41z" stroke="#001135" fill="none" stroke-width="2.375px"></path>
+    <path d="M14.31 34.83l2.43 2.44M18.87 32.55l1.29 1.29M21.15 27.99l2.43 2.43M25.71 25.71L27 27M27.99 21.15l2.43 2.43M32.55 18.87l1.29 1.29M34.83 14.31l2.44 2.43" stroke="#001135" fill="none" stroke-width="2.375px"></path>
+  </g>
+</symbol></defs><use xlink:href="#feature-design" fill="#001135"></use></svg>

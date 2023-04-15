@@ -1,0 +1,7 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 48 48" focusable="false" width="67"  height="67" ><defs><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="feature-battery">
+  <title>Battery</title>
+  <g class="stroke" fill="none" stroke="#001135" stroke-width="2.375px">
+    <rect width="19" height="32" x="14.5" y="10.5" rx="2.25" stroke="#001135" fill="none" stroke-width="2.375px"></rect>
+    <path d="M29.5 10.5V7A1.5 1.5 0 0028 5.5h-8A1.5 1.5 0 0018.5 7v3.5" stroke="#001135" fill="none" stroke-width="2.375px"></path>
+  </g>
+</symbol></defs><use xlink:href="#feature-battery" fill="#001135"></use></svg>

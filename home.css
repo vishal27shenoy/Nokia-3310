@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+:root {
+  background-color: #e0e0e0;
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.body_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Josefin Sans", sans-serif;
+  flex-wrap: wrap;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .body_container :root {
+    font-size: 7px;
+  }
+  .body_container .right_img_container {
+    box-sizing: border-box;
+    padding-left: 20px;
+  }
+}
+.body_container .right_img_container .single_img_container {
+  gap: 20px;
+  display: flex;
+}
+.body_container .right_img_container .single_img_container div {
+  display: grid;
+  place-items: center;
+  height: 60px;
+  width: 60px;
+  border: solid 1px lightblue;
+}
+
+.video_container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.video_container .left_video_img_container {
+  height: "500px";
+}
+.video_container video {
+  height: 500px;
+}
+@media only screen and (max-width: 600px) {
+  .video_container video {
+    height: 400px;
+  }
+}
+
+.specification_container {
+  width: 100%;
+  height: auto;
+  color: #001135;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.specification_container .specification {
+  margin-inline: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  font-size: 30px;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .specification_container .specification {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+}
+.specification_container .specification::after {
+  content: "";
+  display: block;
+  background: linear-gradient(45deg, red, black, yellow, silver);
+  width: 100%;
+  height: 2px;
+}
+.specification_container .specification_container_card {
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.specification_container .specification_container_card .single_card {
+  font-size: 2rem;
+  color: #001135;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 350px;
+  border: solid #001135 1px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex-direction: column;
+}
+.specification_container .specification_container_card .single_card:hover {
+  transition: 1s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+@media only screen and (max-width: 600px) {
+  .specification_container .specification_container_card .single_card .single_card {
+    width: 90%;
+    font-size: 10px;
+  }
+}
+.specification_container .specification_container_card .single_card .img_info {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container_for_specs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.container_for_specs .design {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  justify-content: center;
+  align-self: baseline;
+  border: solid gray 1px;
+  gap: 3rem;
+  margin-inline: auto;
+}
+@media (600px <= width <= 800px) {
+  .container_for_specs .design {
+    width: 90%;
+  }
+}
+@media (300px <= width <= 600px) {
+  .container_for_specs .design {
+    width: 90%;
+  }
+}
+.container_for_specs .design .specs_contaiiner_one {
+  font-size: 4rem;
+  color: #001135;
+  width: 50rem;
+}
+@media only screen and (max-width: 600px) {
+  .container_for_specs .design .specs_contaiiner_one {
+    width: 90%;
+    font-size: 4rem;
+  }
+}
+.container_for_specs .design .specs_container_two {
+  font-size: 2rem;
+  color: black;
+  width: 50rem;
+}
+@media only screen and (max-width: 600px) {
+  .container_for_specs .design .specs_container_two {
+    width: 90%;
+    font-size: 2rem;
+  }
+}
+
+.boundless_batteries {
+  margin-top: 30px;
+  width: 70%;
+  margin-inline: auto;
+  font-size: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.boundless_batteries p::before {
+  content: "Boundless Batteries";
+  font-size: 3rem;
+}
+
+.large_image_container {
+  margin-top: 30px;
+}
+
+.large_image_container img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  aspect-ratio: 1593/856;
+}
+
+.game_container {
+  margin-top: 30px;
+  width: 900px;
+  margin-inline: auto;
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+}
+@media (600px <= width <= 800px) {
+  .game_container {
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 2rem;
+  }
+}
+@media (300px <= width <= 600px) {
+  .game_container {
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 7px;
+  }
+}
+
+.right_game {
+  display: flex;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.game_container .right_game p {
+  font-size: 2rem;
+}
+@media (300px <= width <= 600px) {
+  .game_container .right_game p {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+}
+
+.game_container .right_game p:before {
+  content: "Snake around";
+  font-size: 4rem;
+  color: #001135;
+}
+@media (300px <= width <= 600px) {
+  .game_container .right_game p:before {
+    width: 90%;
+    font-size: 2.5rem;
+  }
+}
+
+.left_game {
+  width: 400px;
+  height: 300px;
+}
+
+.left_game img {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=home.css.map */

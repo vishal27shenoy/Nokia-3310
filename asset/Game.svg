@@ -1,0 +1,10 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 48 48" focusable="false" width="67"  height="67" ><defs><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" id="feature-game">
+<title>Game</title>
+    <g class="stroke" fill="none" stroke="#001135" stroke-width="2.375px">
+    <circle cx="15.5" cy="18.5" r="4" stroke="#001135" fill="none" stroke-width="2.375px"></circle>
+    <path d="M29.8 29.62l.71 2.12a26.73 26.73 0 01.8 3.16 5.65 5.65 0 0011.19-1.14l-1.54-16.44a8.73 8.73 0 00-15.37-5.67 2.07 2.07 0 01-3.18 0 8.73 8.73 0 00-15.37 5.67L5.5 33.76a5.65 5.65 0 0011.2 1.14 26.73 26.73 0 01.79-3.16l.7-2.12a2.06 2.06 0 011.95-1.4h7.72a2.06 2.06 0 011.94 1.4z" stroke="#001135" fill="none" stroke-width="2.375px"></path>
+    </g>
+    <circle cx="32.44" cy="15.5" r="2.5"></circle>
+    <circle cx="28.94" cy="21.5" r="2.5"></circle>
+    <circle cx="35.94" cy="21.5" r="2.5"></circle>
+</symbol></defs><use xlink:href="#feature-game" fill="#001135"></use></svg>
